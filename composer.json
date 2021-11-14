@@ -1,0 +1,19 @@
+{
+    "name": "user/open-server",
+    "description": "my first project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Varvara Borodina",
+            "email": "vava.borodina@mil.ru"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
