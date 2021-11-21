@@ -2,16 +2,20 @@
 
 namespace App\Controllers;
 
+use App\Models\BaseModel;
+use App\Models\Product;
+use mysqli;
+
 class SiteController
 {
     public function index()
     {
-        include __DIR__.'/../../views/main.php';
+        render('main.php');
     }
 
     public function notFound()
     {
-        include __DIR__.'/../../views/404.php';
+        render('404.php');
     }
 
 }

@@ -161,6 +161,7 @@
     <!-- /MAIN HEADER -->
 </header>
 <!-- /HEADER -->
+<?php include "partiels/menu.php" ?>
 <h1>404 NOT FOUND</h1>
 <!-- FOOTER -->
 <footer id="footer">
